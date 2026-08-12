@@ -3,7 +3,7 @@ let windowCount = 0;
 const apps = {
     app1: { name: 'Notepad', content: '<textarea style="width:100%; height:90%;">Type here...</textarea>' },
     app2: { name: 'Gallery', content: '<p>Image gallery placeholder</p>' },
-    app3: { name: 'Music', content: '<p>Music player placeholder</p>' }
+    app3: { name: 'Music', content: '<iframe src="https://zacharyceiley-jpg.github.io/secret-Unblocked-Listen/" style="width:100%; height:100%; border:none;"></iframe>' }
 };
 
 // Open window
