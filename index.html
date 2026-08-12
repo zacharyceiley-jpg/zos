@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z OS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Boot Screen -->
+    <div id="bootScreen">
+        <div id="bootContent">Z</div>
+    </div>
+    
+    <!-- Desktop -->
+    <div id="desktop">
+        <!-- Sidebar Apps Bar -->
+        <div id="sidebar">
+            <div id="searchContainer">
+                <input type="text" id="searchInput" placeholder="Search apps...">
+                <button id="searchBtn">🔍</button>
+            </div>
+            <div id="appsList">
+                <div class="appIcon" data-app="app1">📝</div>
+                <div class="appIcon" data-app="app2">🖼️</div>
+                <div class="appIcon" data-app="app3">🎵</div>
+            </div>
+        </div>
+        
+        <!-- Main Desktop Area -->
+        <div id="mainArea">
+            <!-- Windows will be added here dynamically -->
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="os.js"></script>
+</body>
+</html>
